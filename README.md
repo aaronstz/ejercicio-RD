@@ -1,6 +1,4 @@
-# README.md
-
-## Microservicio REST API en Python con FastAPI
+# Microservicio REST API en Python con FastAPI
 
 Este proyecto es un microservicio REST API desarrollado en Python utilizando FastAPI. La aplicación permite recibir datos a través de un endpoint, modificar ciertos campos y almacenarlos en una base de datos SQLite. También incluye autenticación básica y permite recuperar los datos almacenados.
 
