@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "ejercicio_RD/main.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "ejercicio_RD/main.py"
+        }
+    ]
+}
