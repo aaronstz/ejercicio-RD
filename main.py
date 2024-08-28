@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException, Depends
 from sqlalchemy.orm import Session
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
-from . import models, database
+import models 
+import database
 
 
 app = FastAPI()
