@@ -17,7 +17,7 @@ def get_db():
     finally:
         db.close()
 
-# Función de autenticación básica
+# autenticación
 def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
     correct_username = "admin"
     correct_password = "password"

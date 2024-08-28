@@ -1,0 +1,6 @@
+{
+    "name": "ejercicio_RD",
+    "version": "0.1.0",
+    "description": "Microservicio REST API en Python con FastAPI",
+    "main": "main.py"
+}
