@@ -8,7 +8,6 @@ Este proyecto es un microservicio REST API desarrollado en Python utilizando Fas
 - **Endpoint POST**: `/input/{my_target_field}` para recibir datos en formato JSON y convertir el campo especificado a mayúsculas.
 - **Endpoint GET**: `/data/{id}` para recuperar los datos almacenados en la base de datos usando el ID.
 - **Base de Datos**: Utiliza SQLite para almacenar los datos.
-- **Documentación Interactiva**: Genera automáticamente una interfaz Swagger para probar los endpoints.
 
 ### Estructura del Proyecto
 
@@ -47,7 +46,6 @@ Este proyecto es un microservicio REST API desarrollado en Python utilizando Fas
    uvicorn ejercicio_RD.main:app
    ```
 
-   La aplicación estará disponible en `http://127.0.0.1:8000`.
 
 ### Uso de la Aplicación
 
