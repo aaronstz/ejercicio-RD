@@ -1,9 +1,8 @@
 from fastapi import FastAPI, HTTPException, Depends
 from sqlalchemy.orm import Session
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
-import models 
+import models
 import database
-
 
 app = FastAPI()
 security = HTTPBasic()
@@ -18,7 +17,7 @@ def get_db():
     finally:
         db.close()
 
-# autenticación
+# Función de autenticación básica
 def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
     correct_username = "admin"
     correct_password = "password"
